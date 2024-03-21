@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:template/presentation/pages/subject/subject_controller.dart';
 
 import '../../../../core/utils/color_resources.dart';
+import '../../student/student_controller.dart';
 import 'choose_subject.dart';
 
-class DialogSubject extends GetView<SubjectController>{
+class DialogSubject extends GetView<StudentController>{
   @override
   Widget build(BuildContext context) {
     return Container(

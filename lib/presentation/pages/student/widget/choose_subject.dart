@@ -4,9 +4,9 @@ import 'package:google_fonts/google_fonts.dart';
 
 
 import '../../../../core/utils/color_resources.dart';
-import '../subject_controller.dart';
+import '../../student/student_controller.dart';
 
-class ChooseSubject extends GetView<SubjectController>{
+class ChooseSubject extends GetView<StudentController>{
   @override
   Widget build(BuildContext context){
     return SizedBox(
